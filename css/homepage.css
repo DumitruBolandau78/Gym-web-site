@@ -39,7 +39,6 @@ ul {
 
 li {
     list-style-type: none;
-    padding: 0 20px;
     border-left: 1px solid rgb(87, 87, 87);
 }
 
@@ -51,6 +50,7 @@ a {
     text-decoration: none;
     color: white;
     white-space: nowrap;
+    padding: 15px 20px;
 }
 
 header {
@@ -131,4 +131,80 @@ header {
     color: white;
     border: 1px solid #D54928;
     padding: 15px 45px;
+    font-size: 16px;
+}
+
+.header-bottom-side-right-part-btn button:active {
+    background-color: #9b341d;
+}
+
+/* main////////////////////
+///////////////////////////
+//////////////////////// */
+
+main {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.main-inner {
+    text-align: center;
+    max-width: 1366px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.main-title {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Ubuntu Mono', monospace;
+    padding: 0 20px;
+}
+
+.main-description {
+    max-width: 1000px;
+    width: 100%;
+    margin: 40px 0;
+    font-size: 18px;
+    letter-spacing: .6px;
+    font-family: 'Ubuntu Mono', monospace;
+    padding: 0 20px;
+}
+
+.main-offers {
+    display: flex;
+    width: 85%;
+}
+
+.main-offers-item {
+    background: #bdc3c7;
+    background: -webkit-linear-gradient(to top, #2c3e50, #bdc3c7);
+    background: linear-gradient(to top, #2c3e50, #bdc3c7);
+    border-radius: 20px;
+    padding: 0 30px;
+    width: 33.3%;
+    margin: 0 10px;
+    min-width: 200px;
+}
+
+.main-offers-image {
+    margin-top: 70px;
+}
+
+.main-offers-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.main-offers-info-about {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    letter-spacing: .4px;
+    font-style: italic;
 }
