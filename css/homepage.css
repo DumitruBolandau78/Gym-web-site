@@ -144,7 +144,8 @@ header {
 
 main {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     padding-top: 50px;
 }
 
@@ -177,17 +178,19 @@ main {
 
 .main-offers {
     display: flex;
+    justify-content: center;
     width: 85%;
+    flex-wrap: wrap;
 }
 
 .main-offers-item {
     background: #bdc3c7;
-    background: -webkit-linear-gradient(to top, #2c3e50, #bdc3c7);
+    background: -webkit-linear-gradient(to top, #15212e, #bdc3c7);
     background: linear-gradient(to top, #2c3e50, #bdc3c7);
     border-radius: 20px;
-    padding: 0 30px;
-    width: 33.3%;
-    margin: 0 10px;
+    padding: 40px 30px;
+    width: 30%;
+    margin: 10px;
     min-width: 200px;
 }
 
@@ -199,6 +202,7 @@ main {
     font-size: 22px;
     font-weight: bold;
     margin-top: 50px;
+    overflow-wrap: break-word;
 }
 
 .main-offers-info-about {
@@ -207,4 +211,127 @@ main {
     font-size: 20px;
     letter-spacing: .4px;
     font-style: italic;
+    color: white;
+}
+
+.main-btn {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.main-btn button {
+    background-color: #D54928;
+    padding: 10px 25px;
+    border: 1px solid #D54928;
+    color: white;
+    font-size: 16px;
+}
+
+
+.main-btn button:active {
+    background-color: #9e331b;
+}
+
+.about-gym {
+    background-color: #D54928;
+    height: 100%;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.about-gym-inner-wrapper {
+    background-color: #151515;
+    display: flex;
+    justify-content: center;
+}
+
+.about-gym-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+    max-width: 1366px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+}
+
+.about-gym-inner-left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-gym-inner-left-side-title {
+    margin-bottom: 40px;
+    font-size: 35px;
+}
+
+.about-gym-inner-left-side-title span{
+    background-color: #D54928;
+    padding: 0 5px;
+    font-weight: bold;
+}
+
+.about-gym-inner-right-side {
+    display: flex;
+    justify-content: center;
+}
+
+.category {
+    text-align: center;
+    padding-top: 50px;
+    width: 100%;
+}
+
+.category-items {
+    background-color: #151515;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    overflow: hidden;
+}
+
+.category-items-inner {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 1366px;
+    height: 300px;
+    align-items: center;
+}
+
+.category-item-image {
+    padding-bottom: 20px;
+}
+
+.category-title {
+    font-size: 35px;
+    padding-bottom: 90px;
+}
+
+.category-item-title {
+    font-size: 20px;
+}
+
+.category-btn {
+    position: relative;
+    bottom: 21.5px;
+}
+
+.category-btn button {
+    background-color: #D54928;
+    border: 1px solid #D54928;
+    padding: 10px 40px;
+    color: white;
+    font-size: 18px;
+}
+
+.category-btn button:active {
+    background-color: #9b341d;
 }
