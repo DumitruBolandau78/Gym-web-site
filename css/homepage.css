@@ -12,6 +12,7 @@ menu {
     background-color: gray;
     width: 100%;
     position: fixed;
+    z-index: 999;
     top: -16px;
 }
 
@@ -162,7 +163,6 @@ main {
 .main-title {
     font-size: 30px;
     font-weight: bold;
-    font-family: 'Ubuntu Mono', monospace;
     padding: 0 20px;
 }
 
@@ -172,7 +172,6 @@ main {
     margin: 40px 0;
     font-size: 18px;
     letter-spacing: .6px;
-    font-family: 'Ubuntu Mono', monospace;
     padding: 0 20px;
 }
 
@@ -276,6 +275,10 @@ main {
     font-weight: bold;
 }
 
+.about-gym-inner-left-side-info {
+    letter-spacing: .6px;
+}
+
 .about-gym-inner-right-side {
     display: flex;
     justify-content: center;
@@ -334,4 +337,119 @@ main {
 
 .category-btn button:active {
     background-color: #9b341d;
+}
+
+.types-of-offers {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.types-of-offers-title {
+    font-size: 35px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.types-of-offers-inner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.types-of-offers-inner button {
+    cursor: pointer;
+    border: 0px;
+    background-color: white;
+}
+
+.types-of-offers-item-image {
+    margin-bottom: 30px;
+}
+
+.types-of-offers-item {
+    background: #D54929;
+    background: -webkit-linear-gradient(to bottom, #e7927e, #D54929);
+    background: linear-gradient(to bottom, #e7927e, #D54929);
+    padding: 60px 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 28%;
+    margin: 0 10px;
+    min-width: 150px;
+}
+
+.types-of-offers-item-title {
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.types-of-offers-item-price {
+    color: #fff;
+    font-size: 22px;
+}
+
+.types-of-offers-item-left {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.types-of-offers-item-right {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.item-image {
+    transform: scaleX(-1);
+}
+
+.item2-offer {
+    padding: 110px 0;
+    width: 35%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #151515;
+    padding: 50px 15px;
+    margin-top: 30px;
+}
+
+.footer-inner {
+    max-width: 1366px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.footer-social-media {
+    display: flex;
+}
+
+.footer-social-media i{
+    font-size: 40px;
+    transition: .5s ease;
+}
+
+.footer-social-media-facebook i:hover {
+    color: #3b5998;
+}
+
+.footer-social-media-instagram i:hover {
+    color: #E1306C;
+}
+
+.footer-work-program-saturday-sunday {
+    margin: 10px 0;
 }
