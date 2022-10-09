@@ -1,0 +1,96 @@
+@media (max-width: 827px) {
+    menu {
+        display: none;
+    }
+
+    .header-top-side {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 787px) {
+    
+
+    .main-offers {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-offers-item {
+        width: 60%;
+    }
+
+    .about-gym-inner-right-side img{
+        width: 100%;
+    }
+
+    .main-offers-image {
+        width: 100%;
+    }
+
+    .footer-logo img {
+        width: 100%;
+    }
+
+    .footer-inner {
+        flex-direction: column-reverse;
+    }
+
+    .footer-work-program {
+        line-height: 30px;
+    }
+
+    .footer-social-media {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 651px) {
+    .header-bottom-side {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-gym-inner {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr;
+    }
+
+    .about-gym-inner-left-side-title {
+        margin-top: 50px;
+    }
+
+    .about-gym-inner-left-side-info {
+        padding: 0 10px;
+        margin-bottom: 30px;
+    }
+
+    .about-gym-inner-right-side img{
+        width: 60%;
+    }
+
+    .category-items-inner {
+        flex-wrap: wrap;
+    }
+
+    #none {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) { 
+    .types-of-offers-inner {
+        flex-direction: column;
+    }
+
+    .types-of-offers-item {
+        width: 60%;
+    }
+
+    .logo img{
+        width: 100%;
+    }
+
+    
+}
