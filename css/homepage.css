@@ -432,11 +432,14 @@ footer {
 .footer-inner {
     max-width: 1366px;
     width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.footer-inner-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
-    text-align: center;
 }
 
 .footer-social-media {
@@ -458,4 +461,8 @@ footer {
 
 .footer-work-program-saturday-sunday {
     margin: 10px 0;
+}
+
+.footer-inner-symbol {
+    margin-top: 40px;
 }
